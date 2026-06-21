@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Big data files
+*.parquet
+*.csv
+*.zip
+*.rar
+*.7z
+
+# Power BI large files
+*.pbix
+
+# Spark outputs
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Logs
+logs/
+runs/
+
+# System files
+.DS_Store
+Thumbs.db
